@@ -1,4 +1,9 @@
-
+/*
+Authors: Bryan Pesquera
+Description: 8bit register design simulated 
+using Icarus Verilog 0.10.0 11/23/14 on edaplayground.com
+Date: Feb. 27, 2017.
+*/
 
 module register8bits(din, rst, clk, dout, w);
 input [7:0] din, rst, clk, dout, w;
